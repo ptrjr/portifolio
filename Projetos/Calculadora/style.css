@@ -1,0 +1,78 @@
+html{
+    box-sizing:border-box;
+    height:100%;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:inherit;
+    margin:0;
+    padding:0;
+}
+
+body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
+    background:#0f172a;
+    font-family:'Dosis', sans-serif;
+}
+
+.wrapper{
+    background:#7d9abf;
+    border:3px solid black;
+    border-radius:16px;
+    width:400px;
+    height:540px;
+    padding:20px 35px;
+}
+
+.tela{
+    background:white;
+    border:2px solid black;
+    border-radius:16px;
+    box-shadow:0 4px 30px #334155;
+    font-size:35px;
+    padding:20px;
+    text-align:right;
+    width:326px;
+}
+
+.linhaBotoes{
+    display:flex;
+    justify-content:space-between;
+    margin:5% 0;
+}
+
+.botoes{
+    background:white;
+    border:2px solid black;
+    border-radius:16px;
+    box-shadow:0 4px 30px #334155;
+    flex-basis:20%;
+    font-size:24px;
+    height:65px;
+}
+
+.botoes:last-child{
+    background:#60a5fa;
+    color:white;
+}
+
+.botoes:hover{
+    background-color:inherit;
+}
+
+.botoes:active{
+    background-color:#7d9abf;
+}
+
+.double{
+    flex-basis:47%;
+}
+
+.triple{
+    flex-basis:73%;
+}
